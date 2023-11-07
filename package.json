@@ -1,0 +1,20 @@
+{
+  "name": "secure-sessions",
+  "version": "0.0.1",
+  "description": "Dynamic session managment",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./test/index.js",
+    "install": "node ./build/install.js"
+  },
+  "author": "Reece Harris <reeceharris@email.com>",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  },
+  "required": {
+    "node": ">=11.0.0 <12.0.0"
+  }
+}
